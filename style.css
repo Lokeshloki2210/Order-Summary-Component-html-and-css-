@@ -1,0 +1,140 @@
+*{
+  margin:0px;
+  padding:0px;
+  font-size: 16px;
+  
+}
+
+body{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height:40vh;
+  background-color:hsl(225, 100%, 94%);
+
+}
+.container{
+  width:300px;
+  height:360px;
+margin-top: -3px;
+  box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.3);
+  background-color: white;
+ border-bottom-left-radius: 15px;
+ border-bottom-right-radius: 15px;
+ z-index: 10;
+
+
+}
+#hero{
+  width:300px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  object-fit: contain;
+  margin-top: 430px;
+  z-index:100;
+  
+ 
+}
+p{
+  text-align:center;
+  font-weight: 700;
+  font-family:'red hatndisplay', sans-serif;
+}
+#des{
+  padding:10px 30px 25px 30px;
+  text-align:center;
+  font-weight: 500;
+  font-family:'red hatndisplay', sans-serif;
+  color:hsl(224, 23%, 55%);
+  line-height: 25px;
+  font-size: 14px;
+}
+button{
+ color:white;
+ font-weight: 700;
+ font-family:'red hatndisplay', sans-serif;
+ padding:15px 65px;
+ border-radius: 10px;
+ border:none;
+ margin-left:20px;
+ font-size: 14px;
+
+  background-color:  hsl(245, 75%, 52%);
+}
+button:hover{
+  background-color:hsl(245, 69%, 63%) ;
+  cursor:pointer;
+  box-shadow:1px 1px 1px hsl(245, 69%, 63%) ;
+}
+#txt-l{
+  color:hsl(224, 23%, 55%);
+  padding:20px 10px;
+  font-family:'red hatndisplay', sans-serif;
+  font-weight: 600;
+}
+#txt-l:hover{
+  color:hsl(223, 47%, 23%);
+  cursor:pointer;
+}
+h3{
+  color:hsl(223, 47%, 23%);
+  font-weight: 800;
+  font-family:'red hatndisplay', sans-serif;
+  text-align: center;
+  padding:20px 15px 10px 15px;
+
+}
+.grid{
+
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  margin:5px 20px 25px 20px;
+}
+a{
+  color: hsl(245, 75%, 52%);
+  font-weight: 600;
+  font-family:'red hatndisplay', sans-serif;
+  font-size:12px;
+  text-decoration: underline;
+
+
+}
+a:hover{
+  color:hsl(245, 69%, 63%) ;
+  cursor:pointer;
+}
+.center{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+font-family:'red hatndisplay', sans-serif;
+font-size: 14px;
+margin-left: -13px;
+line-height: 20px;
+}
+
+#plan{
+  font-size: 13px;
+  font-weight: 600;
+  color:hsl(223, 47%, 23%);
+}
+#Amount{
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: -2px;
+  color:hsl(224, 23%, 55%);
+
+}
+#design{
+  position: absolute;
+  top:-20%;
+  z-index:-1;
+  margin-left: -700px;
+
+}
+
+.attribution{
+  margin-top:30px;
+}
